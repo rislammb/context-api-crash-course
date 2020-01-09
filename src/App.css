@@ -1,0 +1,47 @@
+/* @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap'); */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: sans-serif;
+  background-color: rgb(104, 104, 107);
+  font-size: 16px;
+  color: #eee;
+}
+
+.container {
+  padding: 15px;
+  text-align: center;
+}
+
+.nav-container {
+  padding: 15px 0;
+}
+
+ul {
+  list-style-type: none;
+}
+.nav li {
+  display: inline-block;
+  cursor: pointer;
+  padding: 4px 15px;
+  color: rgb(94, 242, 247);
+}
+.nav :hover {
+  color: rgb(109, 204, 167);
+}
+
+input {
+  border: none;
+  border-radius: 15px;
+  padding: 8px 15px;
+  margin: 5px;
+  outline: none;
+  color: #222;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
